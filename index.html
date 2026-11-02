@@ -1,81 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>O GRAU DE STA | Portal Oficial</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Santa Albertina 1000° Grau | Oficial</title>
 <style>
-  body{margin:0;font-family:Arial, sans-serif;background:#f5f5f5;color:#111}
-  header{background:linear-gradient(45deg,#f09433,#dc2743,#bc1888);color:#fff;padding:20px;text-align:center}
-  header h1{margin:0;font-size:28px}
-  header p{margin:5px 0 0}
-  .container{max-width:800px;margin:auto;padding:15px}
-  .card{background:#fff;border-radius:15px;padding:15px;margin-bottom:15px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
-  .btn{display:inline-block;background:linear-gradient(45deg,#f09433,#bc1888);color:#fff;padding:12px 25px;border-radius:25px;text-decoration:none;font-weight:bold;text-align:center}
-  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-  .grid img{width:100%;border-radius:12px}
-  .enquete button{width:100%;padding:12px;margin:5px 0;border:1px solid #ddd;border-radius:10px;background:#fff;font-weight:bold}
-  .enquete button:hover{background:#000;color:#fff}
-  footer{background:#000;color:#fff;text-align:center;padding:20px;margin-top:20px}
+:root{--bg:#0d0d13;--card:#1a1a24;--accent:#ff5500;--green:#39ff14;--blue:#00f0ff;--purple:#b026ff;--yellow:#ffeb00}
+*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif}
+body{background:var(--bg);color:#fff;padding:0 1rem}
+header{padding:2rem;text-align:center;border-bottom:2px solid var(--accent)}
+.logo{width:110px;height:110px;border-radius:50%;border:3px solid var(--accent);margin-bottom:1rem;background:#222;object-fit:cover}
+.btn{color:#fff;padding:0.6rem 1.4rem;border-radius:25px;text-decoration:none;font-weight:bold;background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);display:inline-block;margin-top:0.8rem;font-size:0.9rem}
+.container{max-width:750px;margin:1.5rem auto}
+.utilidades{display:grid;grid-template-columns:1fr 1fr;gap:0.8rem;margin-bottom:1.5rem}
+.util-card{background:var(--card);padding:1rem;border-radius:12px;border:1px solid #2a2a3a;border-left:4px solid var(--blue)}
+.util-card h4{font-size:0.7rem;color:#888;text-transform:uppercase;letter-spacing:1px}
+.util-card p{font-weight:bold;margin-top:0.4rem;font-size:0.95rem}
+.enquete{background:linear-gradient(135deg,#1a1a24,#252538);border:2px solid var(--yellow);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem;text-align:center}
+.enquete h3{color:var(--yellow);font-size:0.9rem;text-transform:uppercase;margin-bottom:0.8rem}
+.enquete .pergunta{font-size:1.1rem;font-weight:bold;margin-bottom:1rem}
+.enquete button{background:#2a2a3a;color:#fff;border:1px solid #444;padding:0.6rem 1rem;border-radius:20px;cursor:pointer;margin:0.3rem;font-weight:bold;width:100%}
+.enquete button:hover{background:var(--yellow);color:#000}
+.filtro{display:flex;gap:0.5rem;justify-content:center;margin-bottom:1.5rem;flex-wrap:wrap}
+.filtro button{background:var(--card);color:#aaa;border:1px solid #2a2a3a;padding:0.6rem 1.2rem;border-radius:20px;cursor:pointer;font-weight:bold;font-size:0.8rem;text-transform:uppercase}
+.filtro button.ativo{background:#333;color:#fff;border-color:#fff}
+.post{background:var(--card);border-radius:12px;padding:1.5rem;border:1px solid #2a2a3a;margin-bottom:1rem;position:relative;padding-left:1.8rem}
+.post::before{content:'';position:absolute;left:0;top:0;width:5px;height:100%;border-radius:12px 0 0 12px}
+.noticias::before{background:var(--blue)} .divulgacoes::before{background:var(--green)} .eventos::before{background:var(--purple)}
+.meta{display:flex;justify-content:space-between;font-size:0.75rem;font-weight:bold;margin-bottom:0.6rem;opacity:0.8}
+footer{text-align:center;padding:3rem;color:#666;font-size:0.85rem;border-top:1px solid #1a1a24;margin-top:3rem}
 </style>
 </head>
 <body>
-
 <header>
-  <h1>🔥 O GRAU DE STA</h1>
-  <p>Portal da cidade - Notícias • Enquetes • Publi • Eventos</p>
-  <br>
-  <a class="btn" style="background:#fff;color:#bc1888" href="https://instagram.com/sta_albertina_1000grau" target="_blank">📲 SEGUIR NO INSTA</a>
+<img src="logo.jpeg" class="logo" onerror="this.src='https://via.placeholder.com/110?text=1000°'">
+<h1>Santa Albertina <span style="color:var(--accent)">1000° Grau</span></h1>
+<a href="https://www.instagram.com/sta_albertina_1000grau" target="_blank" class="btn">📸 @sta_albertina_1000grau</a>
 </header>
 
 <div class="container">
 
-  <div class="card" style="text-align:center">
-    <h2>📲 Nosso Instagram</h2>
-    <img src="https://scontent.cdninstagram.com/v/t51.82787-19/828391373_18142975006511141_2518993727565930415_n.jpg?stp=dst-jpg_s150x150_tt6" style="width:80px;border-radius:50%">
-    <p><b>@sta_albertina_1000grau</b><br>77 seguidores - Portal Mil Grau</p>
-    <iframe src="https://www.instagram.com/sta_albertina_1000grau/embed" style="width:100%;max-width:500px;height:550px;border:0;border-radius:15px" scrolling="no"></iframe>
-  </div>
+<!-- UTILIDADES -->
+<div class="utilidades">
 
-  <div class="card">
-    <h2>📰 Última Notícia</h2>
-    <img src="https://via.placeholder.com/600x300?text=Coloque+sua+imagem+aqui" style="width:100%;border-radius:12px">
-    <h3>Título da notícia aqui</h3>
-    <p>Escreva o resumo da notícia aqui. Troque essa foto fazendo upload no GitHub.</p>
-  </div>
+<div class="util-card" style="border-left-color:var(--green)">
+<h4>💊 Farmácia de Plantão</h4>
+<!-- =========================================== -->
+<!-- 👇👇👇 COLE O CÓDIGO DA FARMÁCIA AQUI - APAGUE A LINHA DE BAIXO E COLE A NOVA -->
+<p id="farmacia">Drogaria Central</p>
+<!-- 👆👆👆 ATÉ AQUI - FARMÁCIA -->
+<span style="font-size:0.7rem;color:#888">Atualizado hoje</span>
+</div>
 
-  <div class="card enquete">
-    <h2>📊 Enquete da Galera</h2>
-    <p><b>O que você quer ver mais no portal?</b></p>
-    <button onclick="alert('Voto computado!')">🔥 Fofocas da cidade</button>
-    <button onclick="alert('Voto computado!')">⚽ Futebol / Esporte</button>
-    <button onclick="alert('Voto computado!')">🎉 Eventos e Festas</button>
-    <button onclick="alert('Voto computado!')">🚨 Notícias urgentes</button>
-  </div>
+<div class="util-card" style="border-left-color:var(--blue)">
+<h4>☀️ Clima Hoje</h4>
+<p>32° - Limpo</p>
+<span style="font-size:0.7rem;color:#888">Santa Albertina - SP</span>
+</div>
 
-  <div class="card">
-    <h2>💼 Espaço Publi</h2>
-    <p>Quer divulgar seu comércio aqui no portal mais visto de Santa Albertina?</p>
-    <div class="grid">
-      <img src="https://via.placeholder.com/300?text=Sua+Publi+1">
-      <img src="https://via.placeholder.com/300?text=Sua+Publi+2">
-    </div>
-    <br>
-    <a class="btn" href="https://wa.me/5517999999999?text=Quero+anunciar+no+Grau+de+STA" target="_blank">Anunciar no WhatsApp</a>
-  </div>
+</div>
 
-  <div class="card" style="text-align:center">
-    <h2>🔗 QR Code do Insta</h2>
-    <p>Aponta a câmera e segue a gente</p>
-    <img src="wa_image_57382093028163642" style="width:100%;max-width:350px;border-radius:15px">
-  </div>
+<!-- ENQUETE DO DIA -->
+<div class="enquete">
+<h3>🔥 Enquete do Dia</h3>
+
+<!-- =========================================== -->
+<!-- 👇👇👇 COLE O CÓDIGO DA ENQUETE AQUI - APAGUE AS 3 LINHAS DE BAIXO E COLE AS NOVAS -->
+<p class="pergunta" id="perguntaEnquete">Você é a favor do rodeio esse ano em Santa Albertina?</p>
+<button onclick="votar(this)">✅ SIM, SOU A FAVOR</button>
+<button onclick="votar(this)">❌ NÃO, SOU CONTRA</button>
+<!-- 👆👆👆 ATÉ AQUI - ENQUETE -->
+
+<p id="resultadoEnquete" style="font-size:0.8rem;color:#888;margin-top:0.8rem">Toque para votar</p>
+</div>
+
+<!-- FILTROS -->
+<div class="filtro">
+<button class="ativo" data-tipo="todos">Ver Tudo</button>
+<button data-tipo="divulgacoes">Divulgações</button>
+<button data-tipo="noticias">Notícias</button>
+<button data-tipo="eventos">Eventos</button>
+</div>
+
+<!-- FEED DE POSTS -->
+<div id="feed">
+
+<!-- =========================================== -->
+<!-- 👇👇👇 COLE OS CÓDIGOS DOS POSTS AQUI EM CIMA - SEMPRE NO TOPO DO FEED -->
+<!-- O post mais novo tem que ficar sempre em primeiro -->
+
+<div class="post noticias">
+<div class="meta"><span style="color:var(--blue)">📰 NOTÍCIA</span><span>AGORA</span></div>
+<p><strong>Portal 1000° Grau no ar!</strong> Esse é um exemplo de post. Apague quando postar o primeiro de verdade.</p>
+</div>
+
+<!-- 👆👆👆 ATÉ AQUI - POSTS - NÃO COLE NADA DEPOIS DISSO -->
+
+</div>
 
 </div>
 
 <footer>
-  <p>© 2026 O GRAU DE STA - Santa Albertina - SP</p>
-  <p>staalbertina1000grau-bot.github.io</p>
+<p>Santa Albertina 1000° Grau © 2026</p>
 </footer>
 
+<script>
+// FILTRO - NÃO MEXA
+document.querySelectorAll('.filtro button').forEach(b=>b.addEventListener('click',()=>{
+document.querySelectorAll('.filtro button').forEach(x=>x.classList.remove('ativo'));b.classList.add('ativo');
+let c=b.dataset.tipo;document.querySelectorAll('.post').forEach(p=>{p.style.display=(c==='todos'||p.classList.contains(c))?'block':'none'})
+}))
+// ENQUETE - NÃO MEXA
+function votar(btn){
+document.querySelectorAll('.enquete button').forEach(b=>{b.style.background='#333';b.disabled=true});
+btn.style.background='#ffeb00';btn.style.color='#000';
+document.getElementById('resultadoEnquete').innerHTML='✅ Voto computado! Obrigado.';
+}
+</script>
 </body>
 </html>
