@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /painel-mil-grau-77x.html
+Disallow: /admin.html
