@@ -3,34 +3,128 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>STA_ALBERTINA_1000GRAU | Em breve</title>
+<title>STA_ALBERTINA_1000GRAU - Portal Oficial de Santa Albertina</title>
+<meta name="description" content="Portal oficial de Santa Albertina - Notícias, enquetes e comércio local. @sta_albertina_1000grau">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{background:#000;color:#fff;font-family:Arial,sans-serif;display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:20px}
-h1{font-family:Impact,Arial Black;font-size:48px;line-height:.9}
-.gradient{background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-p{opacity:.6;margin:15px auto;max-width:400px}
-.btn{display:inline-block;margin:8px;padding:16px 30px;border-radius:100px;font-weight:900;text-decoration:none}
-.btn-white{background:#fff;color:#000}
-.btn-dm{background:linear-gradient(45deg,#f09433,#dc2743,#bc1888);color:#fff}
-.qr{width:180px;height:180px;background:#fff;padding:10px;border-radius:20px;margin:20px auto}
-.dot{width:8px;height:8px;background:#00ff00;border-radius:50%;display:inline-block}
+body{font-family:'Inter',sans-serif;background:#080808;color:#fff;overflow-x:hidden}
+h1,h2,h3{font-family:'Anton',sans-serif;letter-spacing:.5px}
+a{text-decoration:none}
+header{position:fixed;top:0;width:100%;z-index:100;background:rgba(8,8,8,.8);backdrop-filter:blur(20px);border-bottom:1px solid #1a1a1a;padding:14px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:900;letter-spacing:1px}
+.logo span{background:linear-gradient(45deg,#feda75,#d62976);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.btn{padding:14px 28px;border-radius:100px;font-weight:900;display:inline-block;transition:.2s;cursor:pointer;border:none}
+.btn-w{background:#fff;color:#000}.btn-w:hover{transform:scale(1.03)}
+.btn-g{background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#bc1888);color:#fff;box-shadow:0 8px 30px rgba(220,39,67,.3)}.btn-g:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(220,39,67,.5)}
+.hero{min-height:95vh;padding:120px 20px 60px;text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center;background:radial-gradient(800px circle at 20% 20%,rgba(214,41,118,.25),transparent),radial-gradient(600px circle at 80% 70%,rgba(250,126,30,.2),transparent)}
+.hero h1{font-size:clamp(44px,9vw,88px);line-height:.9;text-transform:uppercase}
+.hero p{opacity:.6;font-size:18px;max-width:600px;margin:20px auto 30px;line-height:1.5}
+.container{max-width:1100px;margin:auto;padding:0 20px}
+.section{padding:80px 0}
+.card{background:linear-gradient(180deg,#141414,#0f0f0f);border:1px solid #1f1f1f;border-radius:28px;padding:28px;transition:.3s}
+.card:hover{border-color:#2a2a2a;transform:translateY(-4px)}
+.grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+.badge{font-size:10px;font-weight:900;letter-spacing:1.5px;padding:6px 12px;border-radius:100px;background:#1a1a1a;border:1px solid #2a2a2a;display:inline-block}
+.live{display:inline-flex;align-items:center;gap:8px;background:#111;border:1px solid #222;padding:8px 14px;border-radius:100px;font-size:11px;font-weight:900;letter-spacing:1px}
+.live i{width:7px;height:7px;background:#00ff5a;border-radius:50%;box-shadow:0 0 10px #00ff5a}
+.enquete button{width:100%;background:#161616;border:1px solid #222;color:#fff;padding:18px 20px;border-radius:16px;font-weight:700;text-align:left;margin-top:12px;cursor:pointer;transition:.2s;display:flex;justify-content:space-between;align-items:center}
+.enquete button:hover{background:#fff;color:#000;border-color:#fff}
+.insta-embed{width:100%;max-width:540px;height:640px;border:0;border-radius:20px;background:#111}
+.publi{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+@media(max-width:700px){.publi{grid-template-columns:1fr}}
+.publi .card{text-align:center;padding:20px}
+footer{border-top:1px solid #111;padding:50px 20px;text-align:center;opacity:.5;font-size:13px}
 </style>
 </head>
 <body>
+
+<header>
+<div class="logo">STA_ALBERTINA<span>_1000GRAU</span></div>
+<div style="display:flex;gap:10px;align-items:center">
+<a href="https://instagram.com/sta_albertina_1000grau" target="_blank" style="color:#fff;font-size:12px;font-weight:700;opacity:.6">INSTA</a>
+<a class="btn btn-w" style="padding:8px 18px;font-size:12px" href="https://ig.me/m/sta_albertina_1000grau" target="_blank">DM</a>
+</div>
+</header>
+
+<section class="hero">
+<div class="live"><i></i> SANTA ALBERTINA - SP • PORTAL OFICIAL</div>
+<h1>STA<br>ALBERTINA<br><span style="background:linear-gradient(45deg,#feda75,#fa7e1e,#d62976);-webkit-background-clip:text;-webkit-text-fill-color:transparent">1000 GRAU</span></h1>
+<p>O portal que mostra Santa Albertina como ela é. Direto, sem filtro e do lado do povo.</p>
+<div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
+<a class="btn btn-w" href="https://instagram.com/sta_albertina_1000grau" target="_blank">📲 VER NO INSTAGRAM</a>
+<a class="btn btn-g" href="https://ig.me/m/sta_albertina_1000grau" target="_blank">📩 ENVIAR NOTÍCIA NA DM</a>
+</div>
+</section>
+
+<div class="container">
+
+<section class="section" id="feed">
+<div class="grid">
 <div>
-<div style="font-size:11px;font-weight:900;letter-spacing:2px;opacity:.5"><span class="dot"></span> PORTAL OFICIAL • SANTA ALBERTINA - SP</div>
-<h1 style="margin:20px 0"><span class="gradient">STA_ALBERTINA<br>1000GRAU</span></h1>
-<p><b style="color:#fff;opacity:1">Site em manutenção.</b><br>Voltamos já com a nova versão.</p>
-
-<div style="margin:25px 0">
-<a class="btn btn-white" href="https://instagram.com/sta_albertina_1000grau" target="_blank">📲 INSTAGRAM</a><br>
-<a class="btn btn-dm" href="https://ig.me/m/sta_albertina_1000grau" target="_blank">📩 FALAR NA DM</a>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+<h2 style="font-size:32px">NO FEED AGORA</h2>
+<span class="badge">AO VIVO DO INSTA</span>
+</div>
+<div class="card" style="padding:10px;display:flex;justify-content:center">
+<iframe class="insta-embed" src="https://www.instagram.com/sta_albertina_1000grau/embed" scrolling="no"></iframe>
+</div>
 </div>
 
-<img class="qr" src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://instagram.com/sta_albertina_1000grau">
-
-<p style="font-size:12px;opacity:.3;margin-top:20px">© 2026 STA_ALBERTINA_1000GRAU<br>@sta_albertina_1000grau</p>
+<div>
+<div class="card" style="margin-bottom:20px;background:linear-gradient(135deg,#151515,#1a0a14);border-color:#2a1a22">
+<h3 style="font-size:26px">📊 ENQUETE OFICIAL</h3>
+<p style="opacity:.6;font-size:13px;margin:8px 0 18px">Vote anonimamente. Resultado sai nos stories.</p>
+<p style="font-weight:900;font-size:18px">Qual conteúdo você quer ver mais?</p>
+<div class="enquete" id="enquete">
+<button onclick="votar(this)">🔥 Bastidores da cidade <span>→</span></button>
+<button onclick="votar(this)">🎉 Eventos e rolês <span>→</span></button>
+<button onclick="votar(this)">💼 Comércio local <span>→</span></button>
+<button onclick="votar(this)">🚨 Notícias urgentes <span>→</span></button>
 </div>
+</div>
+
+<div class="card" style="background:#fff;color:#000;text-align:center">
+<h3 style="color:#000;font-size:22px">QR CODE OFICIAL</h3>
+<p style="color:#666;font-size:12px;margin:6px 0 12px;font-weight:700">APONTAR E SEGUIR</p>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://instagram.com/sta_albertina_1000grau" style="width:100%;max-width:200px;border-radius:16px">
+<p style="color:#000;font-weight:900;margin-top:10px;letter-spacing:1px">@STA_ALBERTINA_1000GRAU</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="publi" style="padding-top:0">
+<div style="text-align:center;max-width:600px;margin:0 auto 10px">
+<h2 style="font-size:44px">ANUNCIE COM A GENTE</h2>
+<p style="opacity:.5;margin-top:10px;line-height:1.5">Seu negócio na frente de toda a cidade. O portal mais visto de Santa Albertina.</p>
+</div>
+<div class="publi">
+<div class="card"><div style="width:100%;aspect-ratio:1;background:#1a1a1a;border-radius:16px;display:flex;align-items:center;justify-content:center;opacity:.3;font-weight:900">SEU LOGO</div><p style="margin-top:12px;font-weight:900">DISPONÍVEL</p><p style="font-size:11px;opacity:.4">Chama na DM</p></div>
+<div class="card"><div style="width:100%;aspect-ratio:1;background:#1a1a1a;border-radius:16px;display:flex;align-items:center;justify-content:center;opacity:.3;font-weight:900">SEU LOGO</div><p style="margin-top:12px;font-weight:900">DISPONÍVEL</p><p style="font-size:11px;opacity:.4">Chama na DM</p></div>
+<div class="card" style="border-style:dashed;background:transparent;display:flex;flex-direction:column;justify-content:center;align-items:center;min-height:200px"><p style="font-size:40px">+</p><p style="font-weight:900">SUA EMPRESA AQUI</p><p style="font-size:11px;opacity:.4;margin-top:4px">Vaga aberta essa semana</p></div>
+</div>
+<div style="text-align:center;margin-top:32px">
+<a class="btn btn-g" style="font-size:18px;padding:20px 44px" href="https://ig.me/m/sta_albertina_1000grau" target="_blank">📩 QUERO ANUNCIAR - FALAR NA DM</a>
+<p style="font-size:11px;opacity:.3;margin-top:10px">Resposta em até 10 minutos no Instagram</p>
+</div>
+</section>
+
+</div>
+
+<footer>
+<p style="font-family:'Anton';font-size:22px;opacity:1;letter-spacing:1px">STA_ALBERTINA_1000GRAU</p>
+<p style="margin:10px 0">Portal Oficial de Santa Albertina - SP</p>
+<p>© 2026 • Todos os direitos reservados • <a href="https://instagram.com/sta_albertina_1000grau" style="color:#fff;text-decoration:underline">instagram.com/sta_albertina_1000grau</a></p>
+</footer>
+
+<script>
+function votar(el){
+document.querySelectorAll('#enquete button').forEach(b=>{b.style.background='#161616';b.style.color='#fff'});
+el.style.background='#fff';el.style.color='#000';
+setTimeout(()=>{alert('Voto registrado! Acompanha nos stories 🔥');},200);
+}
+</script>
 </body>
 </html>
